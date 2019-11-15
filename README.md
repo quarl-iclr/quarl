@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/harvard-edge/quarl/blob/master/docs/QuaRL.jpg">
+  <img src="https://github.com/quarl-iclr/quarl/blob/master/docs/QuaRL.jpg">
 </p>
 
 # Quantized Reinforcement Learning (QuaRL)
@@ -18,9 +18,9 @@ Deep reinforcement learning is used for many tasks including game playing, robot
 
 One solution to improving neural network performance is quantization, a method that reduces the precision of neural network weights to enable training and inference with fast low-precision operations. Motivated by recent trends demonstrating that image models may be quantized to < 8 bits without sacrificing performance, we investigate whether the same is true for reinforcement learning models.
 
-To that end, we introduce the end-to-end framework (shown below) for training, quantizing and evaluating the effects of different quantization methods on various reinforcement learning tasks and training algorithms. This code forms the backbone of the experimental setup used for our paper (https://arxiv.org/abs/1910.01055). 
+To that end, we introduce the end-to-end framework (shown below) for training, quantizing and evaluating the effects of different quantization methods on various reinforcement learning tasks and training algorithms. This code forms the backbone of the experimental setup used for our paper (https://openreview.net/forum?id=HJeEP04KDH). 
 
-![](https://github.com/harvard-edge/quarl/blob/master/docs/QuaRL-intro-figure.png)
+![](https://github.com/quarl-iclr/quarl/blob/master/docs/QuaRL-intro-figure.png)
 
 The framework currently support the following environments, RL algorithms and quantization methods.
 
@@ -98,21 +98,22 @@ The parameter distribution plot will be saved under ```<folder>```, and the deta
 
 For example, here is an example of visualizing the weights distribution for breakout envionment trained using DQN, PPO, and A2C:
 <p align="center">
-  <img src="https://github.com/harvard-edge/quarl/blob/master/docs/breakout-weight-distribution.png" width=400>
+  <img src="https://github.com/quarl-iclr/quarl/blob/master/docs/breakout-weight-distribution.png" width=400>
 </p>
 
 ## Results
-For results, please check our [paper](https://arxiv.org/abs/1910.01055). 
+For results, please check our [paper](https://openreview.net/forum?id=HJeEP04KDH). 
 
 ## Citations
 To cite this repository in publications:
 ```
-@misc{quantized-rl,
-    title={Quantized Reinforcement Learning (QUARL)},
-    author={Srivatsan Krishnan and Sharad Chitlangia and Maximilian Lam and Zishen Wan and Aleksandra Faust and Vijay Janapa Reddi},
-    year={2019},
-    eprint={1910.01055},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
+@inproceedings{
+anonymous2020quantized,
+title={Quantized Reinforcement Learning (Qua{\{}RL{\}})},
+author={Anonymous},
+booktitle={Submitted to International Conference on Learning Representations},
+year={2020},
+url={https://openreview.net/forum?id=HJeEP04KDH},
+note={under review}
 }
 ```

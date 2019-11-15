@@ -37,7 +37,7 @@ The framework currently support the following environments, RL algorithms and qu
 - Post-training Quantization
 - Quantization Aware Training
 
-Read the paper here for more information: https://arxiv.org/abs/1910.01055
+Read the paper here for more information: https://openreview.net/forum?id=HJeEP04KDH
 
 ## Quickstart
 We suggest that you create an environment using conda first
